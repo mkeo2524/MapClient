@@ -1,12 +1,17 @@
 <template>
   <div id='app'>
-    <title>Upload new File</title>
+    <title>Upload new File Test</title>
     <h1>Upload new File</h1>
-    <form method=post action="http://127.0.0.1:5000/upload" enctype=multipart/form-data>
+      <form method=post action="http://127.0.0.1:5000/upload" enctype=multipart/form-data>
       <input type=file name=file>
       <input type=submit value=Upload>
     </form>
+    <h1>Marker Set Get API Test</h1>
+    <form method=get action="http://127.0.0.1:5000/get">
+      <input type=submit value=Submit>
+    </form>
   </div>
+
 </template>
 
 <style>
